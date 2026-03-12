@@ -1,12 +1,12 @@
 
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
+[![jinronghuang](https://img.shields.io/badge/jinronghuang-github-blue?logo=github)](https://github.com/jinronghuang)
 
-He is currently a Fellow in the Department of Earth and Planetary Sciences (EPS) at Harvard University.
+He is currently an Assistant Researcher at Hangzhou Normal University, Hangzhou, China.
 
 #### Contact
 
-Email: user[at]hznu.edu.cn
+Email: jinronghuang@hznu.edu.cn
 
 #### Professional Experience
 Assistant Researcher, Hangzhou Normal University, Hangzhou, China, 2024–Present.
