@@ -6,12 +6,16 @@ He is currently a Fellow in the Department of Earth and Planetary Sciences (EPS)
 
 #### Contact
 
-Email: user[at]fas.harvard.edu
+Email: user[at]hznu.edu.cn
+
+#### Professional Experience
+Assistant Researcher, Hangzhou Normal University, Hangzhou, China, 2024–Present.
 
 #### Education
-M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025.\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
+Ph.D., Electronic Science and Technology, Nanjing University, 2020.09 — 2024.07.\
+M.S., Condensed Matter Physics, University of Chinese Academy of Sciences, 2017.09 — 2020.07.\
+B.S., Experimental Class in Science, University of Science and Technology Beijing, 2013.09 — 2017.07.
 
 #### Research Interests
-Machine Learning for Seismology; Foundation Model; Observational Seismology; Microseismic Monitoring
+Focusing on electronic skin, deep learning, flexible sensors, and multimodal sensing systems.
 
