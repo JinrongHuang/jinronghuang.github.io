@@ -101,25 +101,11 @@ section .main-body{
 #avatar img {
     height: max(130px,min(200px,calc(100vw/6)));
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-}
-
-.avatar-counter {
-    clear: both;
-    text-align: right;
-    margin-top: 0.5rem;
-    margin-bottom: 1.5rem;
-    color: var(--h-title-color);
-    font-size: 1rem;
 }
 
 @media screen and (max-width: 991px) {
     #avatar {
         margin: 0;
-    }
-
-    .avatar-counter {
-        text-align: left;
     }
 }
 
