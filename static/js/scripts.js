@@ -7,6 +7,83 @@ const section_names = ['home', 'publications', 'projects', 'awards']
 
 window.addEventListener('DOMContentLoaded', event => {
 
+    const visitCountElement = document.getElementById('visit-count');
+    const addVisitButton = document.getElementById('add-visit-btn');
+    const avatarImage = document.getElementById('avatar-image');
+    const visitCountStorageKey = 'avatar_visit_count_fallback';
+    const counterNamespace = 'jinronghuang-homepage';
+    const counterKey = 'avatar-visit-count';
+
+    const getFallbackCount = () => {
+        const savedCount = parseInt(localStorage.getItem(visitCountStorageKey), 10);
+        return Number.isNaN(savedCount) ? 0 : savedCount;
+    };
+
+    const setFallbackCount = (nextCount) => {
+        localStorage.setItem(visitCountStorageKey, nextCount.toString());
+    };
+
+    const renderVisitCount = (count) => {
+        if (visitCountElement) {
+            visitCountElement.textContent = count.toString();
+        }
+    };
+
+    const parseCount = (payload) => {
+        if (payload && typeof payload.value === 'number') {
+            return payload.value;
+        }
+        return 0;
+    };
+
+    const loadVisitCount = () => {
+        fetch(`https://api.countapi.xyz/get/${counterNamespace}/${counterKey}`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('counter get failed');
+                }
+                return response.json();
+            })
+            .then(data => {
+                const count = parseCount(data);
+                renderVisitCount(count);
+                setFallbackCount(count);
+            })
+            .catch(() => {
+                renderVisitCount(getFallbackCount());
+            });
+    };
+
+    const incrementVisitCount = () => {
+        fetch(`https://api.countapi.xyz/hit/${counterNamespace}/${counterKey}`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('counter hit failed');
+                }
+                return response.json();
+            })
+            .then(data => {
+                const count = parseCount(data);
+                renderVisitCount(count);
+                setFallbackCount(count);
+            })
+            .catch(() => {
+                const count = getFallbackCount() + 1;
+                setFallbackCount(count);
+                renderVisitCount(count);
+            });
+    };
+
+    loadVisitCount();
+
+    if (addVisitButton) {
+        addVisitButton.addEventListener('click', incrementVisitCount);
+    }
+
+    if (avatarImage) {
+        avatarImage.addEventListener('click', incrementVisitCount);
+    }
+
     // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
     if (mainNav) {
