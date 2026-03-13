@@ -1,0 +1,1 @@
+- (1) China Postdoctoral Science Foundation, 78th General Program, 2025M780511, High-Precision Electronic Skin Design and Mechanism Study via Data-Driven Directional Optimization, Dec 2025 to Aug 2026, CNY 80,000, Ongoing, Principal Investigator.

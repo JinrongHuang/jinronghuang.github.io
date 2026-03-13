@@ -1,12 +1,10 @@
 
-- Outstanding Graduate Award (CUMT), 2025.
+- Outstanding Graduate Student, Nanjing University, 2023
 
-- National Scholarship for Graduate Students (Ministry of Education, China), 2024.
+- Graduate Excellence Scholarship, Nanjing University, 2022
 
-- First-Prize Graduate Academic Scholarship (CUMT), 2023 & 2024.
+- Merit Student, University of Chinese Academy of Sciences, 2018
 
-- Outstanding Undergraduate Thesis Award (Jiangsu, China), 2022.
+- Outstanding Student Leader, University of Chinese Academy of Sciences, 2018
 
-- First-Prize Corporate Scholarship (CUMT), 2020.
-
-- First-Prize Undergraduate Academic Scholarship (CUMT), 2019.
+- People's Scholarship, University of Science and Technology Beijing, 2015
