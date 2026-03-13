@@ -6,7 +6,7 @@ He is currently an Assistant Researcher at Hangzhou Normal University, Hangzhou,
 
 #### Contact
 
-Email: jinronghuang@hznu.edu.cn
+Email: jinronghuang[at]hznu.edu.cn
 
 #### Professional Experience
 Assistant Researcher, Hangzhou Normal University, Hangzhou, China, 2024–Present.
