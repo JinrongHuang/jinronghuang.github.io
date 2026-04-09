@@ -8,7 +8,7 @@
 
 - [2] **J. Huang**, J. Liu, X. Chen, J. Zhou, Y. Zhu, Q. Zhang, Ultrathin Ionogels and Hydrogels: Materials, Mechanisms, and Emerging Applications, J. Polym. Sci. 63 (2025) 3395-3409, https://doi.org/10.1002/pol.20250403. [第一作者]
 
-- [3] X. Chen#, J. Zhou#, **J. Huang***, J. Liu, L. Nie, Y. Zhu, A Neuromorphic Multifunctional Sensing Fiber for Deep Learning Enhanced Wearable Human‐Machine Interaction, Adv. Funct. Mater. Early View (2025) 2524652, https://doi.org/10.1002/adfm.202524652. [通讯作者]
+- [3] X. Chen#, J. Zhou#, **J. Huang#***, J. Liu, L. Nie, Y. Zhu, A Neuromorphic Multifunctional Sensing Fiber for Deep Learning Enhanced Wearable Human‐Machine Interaction, Adv. Funct. Mater. Early View (2025) 2524652, https://doi.org/10.1002/adfm.202524652. [通讯作者]
 
 - [4] M. Luo#, **J. Huang#**, Y. Wu, Q. Liu, R. Yuan, X. Chang, Y. Zhu, Chameleon-inspired cellulose photonic gels toward multi-mode visual sensing and deep learning enhanced information encryption, Chem. Eng. J. 525 (2025) 170363, https://doi.org/10.1016/j.cej.2025.170363. [共同一作]
 
